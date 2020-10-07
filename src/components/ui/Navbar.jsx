@@ -7,7 +7,9 @@ export const Navbar = () => {
     return (
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <Link to="/"><span class="nav-link"> Mi Watermania </span></Link>
+                <Link to="/">
+                    <img class="nav-link" src="../logo.jpg" alt="imagen logo" />
+                </Link>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">

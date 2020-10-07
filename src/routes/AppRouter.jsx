@@ -9,6 +9,8 @@ import { About } from "../pages/about/About";
 import { Contact } from "../pages/contact/Contact";
 import { HomePage } from "../pages/home/HomePage";
 import { Watercolors } from "../pages/watercolors/Watercolors";
+import {Footer} from '../components/ui/Footer'
+
 
 export const AppRouter = () => {
     return (
@@ -21,7 +23,9 @@ export const AppRouter = () => {
                     <Route exact path = "/about" component = {About}/>
                     <Route exact path = "/watercolors" component = {Watercolors}/>
                 </Switch>
+                
             </div>
+            <Footer/>
         </Router>
     )
 }
