@@ -3,7 +3,7 @@ import React from 'react'
 export const Home = () => {
     return (
         <div>
-            <h1>SUBHOME</h1>
+            <img src="../../fondo_final2_web.png" alt="puesta de sol" srcset=""/>
         </div>
     )
 }
